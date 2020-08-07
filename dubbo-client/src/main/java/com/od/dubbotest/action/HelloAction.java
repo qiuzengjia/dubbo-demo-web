@@ -16,7 +16,7 @@ public class HelloAction {
 	public String say(String name) {
 		System.out.println("HelloAction接收到请求:"+name);
 		String str="<h1>Dubbo 消费者端(springboot)</h1>";
-		str+="<h2>Kubernetes好难啊！我想回家！</h2>";
+		str+="<h2>我们毕业了！都找到满意的工作！</h2>";
 		str+=helloService.hello(name);
 		System.out.println("HelloService返回到结果:"+str);
 		return str;
